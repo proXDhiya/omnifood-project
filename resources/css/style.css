@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: geometricPrecision;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-box {
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #d36607;
+}
+
+.full-btn:link,
+.full-btn:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.ghost-btn:link,
+.ghost-btn:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.ghost-btn:hover,
+.ghost-btn:active {
+    color: #fff;
+}
