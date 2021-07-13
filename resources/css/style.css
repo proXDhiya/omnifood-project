@@ -13,7 +13,7 @@ html {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 20px;
     text-rendering: geometricPrecision;
 }
@@ -47,6 +47,7 @@ header {
     width: 100px;
     height: auto;
     float: left;
+    margin-top: 20px;
 }
 
 .main-nav {
@@ -56,13 +57,24 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 25px;
-    margin-top: 30px;
+    margin-left: 35px;
+    margin-top: 55px;
 }
 
-.main-nav a {
+.main-nav li a:link,
+.main-nav li a:visited {
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #d36607;
 }
 
 /*-----------------------------------------------------*/
