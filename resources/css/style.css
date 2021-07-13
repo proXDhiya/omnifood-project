@@ -1,3 +1,8 @@
+/*-----------------------------------------------------*/
+/* BASIC SETUP */
+/*-----------------------------------------------------*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +17,16 @@ html {
     font-size: 20px;
     text-rendering: geometricPrecision;
 }
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------*/
+/* HEADER */
+/*-----------------------------------------------------*/
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/hero.jpg);
@@ -28,6 +43,33 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------*/
+/* TAGS */
+/*-----------------------------------------------------*/
+
+
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -38,6 +80,12 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 4px;
 }
+
+
+/*-----------------------------------------------------*/
+/* BUTTONS */
+/*-----------------------------------------------------*/
+
 
 .btn:link,
 .btn:visited {
