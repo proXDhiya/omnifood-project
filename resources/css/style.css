@@ -150,7 +150,7 @@ h2:after {
 
 .btn:hover,
 .btn:active {
-    background-color: #d36607;
+    background-color: #bd5903;
 }
 
 .full-btn:link,
@@ -161,9 +161,14 @@ h2:after {
     color: #fff;
 }
 
+.full-btn:hover,
+.full-btn:active {
+    background-color: #bd5903;
+}
+
 .ghost-btn:link,
 .ghost-btn:visited {
-    border: 1px solid #e67e22;
+    border: 1px solid #bd5903;
     color: #e67e22;
 }
 
@@ -395,4 +400,19 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+
+/*-----------------------------------------------------*/
+/* TESTIMONIALS */
+/*-----------------------------------------------------*/
+
+.green {
+    size: 30px;
+    color: green;
+}
+
+.red {
+    size: 30px;
+    color: red;
 }
