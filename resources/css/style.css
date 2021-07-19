@@ -139,22 +139,25 @@ h2:after {
 
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 50px;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover {
     background-color: #bd5903;
 }
 
 .full-btn:link,
-.full-btn:visited {
+.full-btn:visited,
+input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     margin-right: 10px;
@@ -162,7 +165,8 @@ h2:after {
 }
 
 .full-btn:hover,
-.full-btn:active {
+.full-btn:active,
+input[type=submit]:hover {
     background-color: #bd5903;
 }
 
@@ -229,6 +233,12 @@ section {
     margin: 140px 0;
 }
 
+.correct-5 {
+    background-color: #fff;
+    width: 100%;
+    height: 140px;
+    padding: 180px 0;
+}
 
 /*-----------------------------------------------------*/
 /* MEALS */
@@ -479,3 +489,27 @@ cite img {
     background-color: #fff;
 }
 
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
