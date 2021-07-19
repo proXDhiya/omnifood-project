@@ -407,6 +407,10 @@ cite img {
 /* Plans */
 /*-----------------------------------------------------*/
 
+.section-plans {
+    margin: 50px 0;
+}
+
 .green {
     size: 30px;
     color: green;
@@ -424,6 +428,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 2px 2px 5px #fde2cf;
 }
 
 .plan-box div {
