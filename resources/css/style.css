@@ -396,16 +396,21 @@ cite img {
 }
 
 .green {
-    size: 30px;
     color: green;
     padding: 0 7px;
 }
 
 .red {
-    size: 30px;
     color: red;
     padding: 0 7px;
 }
+
+.oraneg {
+    font-size: 40px;
+    color: #e67e22;
+    padding: 0 7px;
+}
+
 
 .plan-box {
     background-color: #fff;
