@@ -54,11 +54,27 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.logo {
+.logo{
     width: 100px;
     height: auto;
     float: left;
     margin-top: 20px;
+}
+
+.logo-black {
+    display: none;
+    float: left;
+    margin: 5px 0;
+    width: 50px;
+    height: auto;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
+.sticky .logo {
+    display: none;
 }
 
 .main-nav {
@@ -86,6 +102,27 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #d36607;
+}
+
+/* stick nav */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #e6e6e6;
+    z-index: 9999;
+}
+
+.sticky .main-nav li {
+    margin-top: 15px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 20px 0;
+    color: #555;
 }
 
 /*-----------------------------------------------------*/
