@@ -16,6 +16,7 @@ html {
     font-weight: bold;
     font-size: 20px;
     text-rendering: geometricPrecision;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
